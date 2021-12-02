@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>一个正在被搭建的博客</title>
+    <link>http://xzxqshhr.com/</link>
+    
+    <atom:link href="http://xzxqshhr.com/rss2.xml" rel="self" type="application/rss+xml"/>
+    
+    <description></description>
+    <pubDate>Thu, 02 Dec 2021 06:10:31 GMT</pubDate>
+    <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>关于这是我的第一篇博客但我没想好名字这件事</title>
+      <link>http://xzxqshhr.com/2021/12/01/%E5%85%B3%E4%BA%8E%E5%9F%BA%E4%BA%8EGitHub%E4%B8%8EHexo%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BAde%E9%82%A3%E4%BA%9B%E4%BA%8B/</link>
+      <guid>http://xzxqshhr.com/2021/12/01/%E5%85%B3%E4%BA%8E%E5%9F%BA%E4%BA%8EGitHub%E4%B8%8EHexo%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BAde%E9%82%A3%E4%BA%9B%E4%BA%8B/</guid>
+      <pubDate>Wed, 01 Dec 2021 12:54:53 GMT</pubDate>
+      
+      <description>&lt;h1 id=&quot;关于基于GitHub与Hexo的博客搭建de那些事&quot;&gt;&lt;a href=&quot;#关于基于GitHub与Hexo的博客搭建de那些事&quot; class=&quot;headerlink&quot; title=&quot;关于基于GitHub与Hexo的博客搭建de那些事&quot;&gt;&lt;/a&gt;关于基于GitHub与Hexo的博客搭建de那些事&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;本来不那么费劲但也看人品的一种方法&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;一、基本流程&quot;&gt;&lt;a href=&quot;#一、基本流程&quot; class=&quot;headerlink&quot; title=&quot;一、基本流程&quot;&gt;&lt;/a&gt;一、基本流程&lt;/h2&gt;&lt;p&gt;1.项目计划：&lt;br&gt;在各大社交平台（CSDN、知乎等）查各种资料，最终决定参考某乎上一个名为&lt;a href=&quot;https://zhuanlan.zhihu.com/p/102592286?utm_source=wechat_session&amp;utm_medium=social&amp;utm_oi=1152729822923980800&quot; title=&quot;点我转到某乎&quot;&gt;“枫叶”&lt;/a&gt;的作者的方法展开博客搭建。  &lt;/p&gt;</description>
+      
+      
+      
+      <content:encoded><![CDATA[<h1 id="关于基于GitHub与Hexo的博客搭建de那些事"><a href="#关于基于GitHub与Hexo的博客搭建de那些事" class="headerlink" title="关于基于GitHub与Hexo的博客搭建de那些事"></a>关于基于GitHub与Hexo的博客搭建de那些事</h1><blockquote><p>本来不那么费劲但也看人品的一种方法</p></blockquote><h2 id="一、基本流程"><a href="#一、基本流程" class="headerlink" title="一、基本流程"></a>一、基本流程</h2><p>1.项目计划：<br>在各大社交平台（CSDN、知乎等）查各种资料，最终决定参考某乎上一个名为<a href="https://zhuanlan.zhihu.com/p/102592286?utm_source=wechat_session&utm_medium=social&utm_oi=1152729822923980800" title="点我转到某乎">“枫叶”</a>的作者的方法展开博客搭建。  </p><span id="more"></span>    <p>2.搭建准备：<br>搭建环境（Github等）注册、相关工具（Git、nodejs、Hexo等）下载。在阿里云上注册账号并购买了域名<a href="https://xzxqshhr.com/" title="点我进行套娃">xzxqshhr.com</a>。</p><p>3、搭建博客：<br>运用Git进行博客搭建、设置主题；解析域名，将域名指定到基于Github库所建立的博客上  </p><p>4、美化博客、添加内容：<br>在本地、优化主题，设置网站图标、添加背景、头像、设置主页样式等效果。基于Markdown结合Hexo相关功能，编写、上传博文（你面前的这个东西）</p><h2 id="二、搭建过程中的各种坎"><a href="#二、搭建过程中的各种坎" class="headerlink" title="二、搭建过程中的各种坎"></a>二、搭建过程中的各种坎</h2><h3 id="基本概况："><a href="#基本概况：" class="headerlink" title="基本概况："></a>基本概况：</h3><p>整个搭建过程的出现困难的地方，大致如下：</p><pre><code>本地与GitHub网站的连接    ——已解决Git相关使用                ——已解决Hexo框架下载                ——已解决ssh公钥添加                ——已解决域名绑定解析                ——已解决优化主题、添加组件            ——部分解决编写上传博文                ——你猜解没解决</code></pre><h3 id="具体问题及解决方式："><a href="#具体问题及解决方式：" class="headerlink" title="具体问题及解决方式："></a>具体问题及解决方式：</h3><p>1、本地与GitHub的连接建立的问题，通俗讲，就是能不能登上GitHub的问题，一个看起来非常可笑的问题，却至关重要。这个连接，贯穿了从搭建准备到正式搭建，再到美化、上传的全过程。<br>由于GitHub</p>]]></content:encoded>
+      
+      
+      <category domain="http://xzxqshhr.com/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/">博客相关</category>
+      
+      
+      <category domain="http://xzxqshhr.com/tags/hexo/">hexo</category>
+      
+      <category domain="http://xzxqshhr.com/tags/github/">github</category>
+      
+      
+      <comments>http://xzxqshhr.com/2021/12/01/%E5%85%B3%E4%BA%8E%E5%9F%BA%E4%BA%8EGitHub%E4%B8%8EHexo%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BAde%E9%82%A3%E4%BA%9B%E4%BA%8B/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>http://xzxqshhr.com/2021/11/29/hello-world/</link>
+      <guid>http://xzxqshhr.com/2021/11/29/hello-world/</guid>
+      <pubDate>Mon, 29 Nov 2021 11:26:44 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;
+&lt;p&gt;This blog was not written by the host so that it might be kind of meaningless. hehehe~  ; )&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</description>
+      
+      
+      
+      <content:encoded><![CDATA[<blockquote><p>This blog was not written by the host so that it might be kind of meaningless. hehehe~  ; )</p></blockquote><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><span id="more"></span><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content:encoded>
+      
+      
+      
+      
+      <comments>http://xzxqshhr.com/2021/11/29/hello-world/#disqus_thread</comments>
+      
+    </item>
+    
+  </channel>
+</rss>
