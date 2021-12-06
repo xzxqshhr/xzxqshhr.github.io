@@ -30,7 +30,7 @@
 <meta property="og:description" content="关于基于GitHub与Hexo的博客搭建de那些事 本来不那么费劲但也看人品的一种方法  一、基本流程1.项目计划：在各大社交平台（CSDN、知乎等）查各种资料，最终决定参考某乎上一个名为“枫叶”的作者的方法展开博客搭建。">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2021-12-01T12:54:53.635Z">
-<meta property="article:modified_time" content="2021-12-06T11:56:35.176Z">
+<meta property="article:modified_time" content="2021-12-06T11:59:40.757Z">
 <meta property="article:author" content="一个正在搭建博客的人">
 <meta property="article:tag" content="hexo">
 <meta property="article:tag" content="github">
@@ -200,7 +200,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-12-06 19:56:35" itemprop="dateModified" datetime="2021-12-06T19:56:35+08:00">2021-12-06</time>
+                <time title="修改时间：2021-12-06 19:59:40" itemprop="dateModified" datetime="2021-12-06T19:59:40+08:00">2021-12-06</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -248,8 +248,8 @@ ssh公钥添加                ——已解决
 <p>6.优化主题主要是在本地库的总配置文件和本地库里主题配置文件里改，文件名都叫_config.yml，用记事本改就行。其实就是配置hexo框架和主题。调整的主要有两条，一个是把注释改为可执行（删#），另一个是把false改true。我是跟着教程做的。有些功能教程上有点老，不一定能行。影响不大，花多点时间看看都能看懂，慢慢改就行。当然，知道用什么干啥就不用跟着教程走了，可以真正建一个自己的博客。（原谅我有点菜：））</p>
 <p>7.编写博文上传，主要用的是markdown。下载专用软件也可以，我用的是markdownpad2，记事本写完了改成md类型也行，记得放在专门的本地库里，然后更新本地文件。还有一种方法是在gitbash上，从新建到编写一条龙，直接能完成应该。。我没试过。</p>
 <p>我的主要问题就是这些，其他的小问题网上基本都能查到。</p>
-<p>##三、博客基本功能<br>本博客有以下功能：<br>1.有以下界面：主页、标签、博文、资源、关于等，里面的选项均能满足合理要求<br>2.有评论功能<br>3.博客背景有小动画<br>4.能进行基本的博文上传、修改、更新等工作</p>
-<p>##四、搭建感受<br>用GitHub库，使用hexo框架进行博客搭建，搭建难度较小，代码要求不高，基本功能会调hexo框架就可以满足（还有一些需要自己添加）。GitHub库的功能类似于一个服务器，hexo框架包含了博客的各种组件。整个搭建过程类似于买一个已经拼好的高达，给它贴贴纸、勾纹理，然后找一个底座，摆到一个合适的位置，使之除了摆设这一基本功能外增添了些个人特色。这个类比大致是说整个博客的的搭建过程中，我进行的工作有：买域名、下载博客搭建工具、下载博客搭建框架、在配置文件中用某种方式选择需要的功能及主题、编写博文上传、验证博客搭建成果。具体的东西怎么来的，比如框架怎么写的什么的都是用现成的。这是方便的地方，当然，也说明在目前本人还没有写这些东西的能力，技术水平有待提高。当然收获也是有的，这次搭博客相当于一个0到1的过程，整个过程中不断地加深对本次项目中的网络相关内容的理解，同时也锻炼了解决问题相关的学习能力。<br>方便的地方说完了，再说点不方便的。一个是每次有问题更改想要预览时都必须在gitbash中清空缓存（hexo clean）、更新内容并上传(hexo d -g)后才能看到更改结果。还有一点就是每次清空缓存后，github库中的page配置中的本地域名会自动清空，得重新填才能访问对应的域名。这两个操作属于重复性超高的工作，目前我没有找到化简问题的方法。还有一个是评论采用的是韩国的一个评论组件，每次进入博文配置时间较长。这个问题不大，换个评论组件应该就没问题了。<br>总之，一个个人博客搭起来成就感还是有的。以后没事可以往里写点东西。<br>虽然域名只买了一年。。。<br>但好像不影响我用github的网址登：）</p>
+<h2 id="三、博客基本功能"><a href="#三、博客基本功能" class="headerlink" title="三、博客基本功能"></a>三、博客基本功能</h2><p>本博客有以下功能：<br>1.有以下界面：主页、标签、博文、资源、关于等，里面的选项均能满足合理要求<br>2.有评论功能<br>3.博客背景有小动画<br>4.能进行基本的博文上传、修改、更新等工作</p>
+<h2 id="四、搭建感受"><a href="#四、搭建感受" class="headerlink" title="四、搭建感受"></a>四、搭建感受</h2><p>用GitHub库，使用hexo框架进行博客搭建，搭建难度较小，代码要求不高，基本功能会调hexo框架就可以满足（还有一些需要自己添加）。GitHub库的功能类似于一个服务器，hexo框架包含了博客的各种组件。整个搭建过程类似于买一个已经拼好的高达，给它贴贴纸、勾纹理，然后找一个底座，摆到一个合适的位置，使之除了摆设这一基本功能外增添了些个人特色。这个类比大致是说整个博客的的搭建过程中，我进行的工作有：买域名、下载博客搭建工具、下载博客搭建框架、在配置文件中用某种方式选择需要的功能及主题、编写博文上传、验证博客搭建成果。具体的东西怎么来的，比如框架怎么写的什么的都是用现成的。这是方便的地方，当然，也说明在目前本人还没有写这些东西的能力，技术水平有待提高。当然收获也是有的，这次搭博客相当于一个0到1的过程，整个过程中不断地加深对本次项目中的网络相关内容的理解，同时也锻炼了解决问题相关的学习能力。<br>方便的地方说完了，再说点不方便的。一个是每次有问题更改想要预览时都必须在gitbash中清空缓存（hexo clean）、更新内容并上传(hexo d -g)后才能看到更改结果。还有一点就是每次清空缓存后，github库中的page配置中的本地域名会自动清空，得重新填才能访问对应的域名。这两个操作属于重复性超高的工作，目前我没有找到化简问题的方法。还有一个是评论采用的是韩国的一个评论组件，每次进入博文配置时间较长。这个问题不大，换个评论组件应该就没问题了。<br>总之，一个个人博客搭起来成就感还是有的。以后没事可以往里写点东西。<br>虽然域名只买了一年。。。<br>但好像不影响我用github的网址登：）</p>
 
     </div>
 
@@ -368,7 +368,7 @@ ssh公钥添加                ——已解决
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%85%B3%E4%BA%8E%E5%9F%BA%E4%BA%8EGitHub%E4%B8%8EHexo%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BAde%E9%82%A3%E4%BA%9B%E4%BA%8B"><span class="nav-number">1.</span> <span class="nav-text">关于基于GitHub与Hexo的博客搭建de那些事</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%80%E3%80%81%E5%9F%BA%E6%9C%AC%E6%B5%81%E7%A8%8B"><span class="nav-number">1.1.</span> <span class="nav-text">一、基本流程</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%8C%E3%80%81%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B%E4%B8%AD%E7%9A%84%E5%90%84%E7%A7%8D%E5%9D%8E"><span class="nav-number">1.2.</span> <span class="nav-text">二、搭建过程中的各种坎</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%86%B5%EF%BC%9A"><span class="nav-number">1.2.1.</span> <span class="nav-text">基本概况：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%85%B7%E4%BD%93%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E5%BC%8F%EF%BC%9A"><span class="nav-number">1.2.2.</span> <span class="nav-text">具体问题及解决方式：</span></a></li></ol></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%85%B3%E4%BA%8E%E5%9F%BA%E4%BA%8EGitHub%E4%B8%8EHexo%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BAde%E9%82%A3%E4%BA%9B%E4%BA%8B"><span class="nav-number">1.</span> <span class="nav-text">关于基于GitHub与Hexo的博客搭建de那些事</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%80%E3%80%81%E5%9F%BA%E6%9C%AC%E6%B5%81%E7%A8%8B"><span class="nav-number">1.1.</span> <span class="nav-text">一、基本流程</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%8C%E3%80%81%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B%E4%B8%AD%E7%9A%84%E5%90%84%E7%A7%8D%E5%9D%8E"><span class="nav-number">1.2.</span> <span class="nav-text">二、搭建过程中的各种坎</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%86%B5%EF%BC%9A"><span class="nav-number">1.2.1.</span> <span class="nav-text">基本概况：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%85%B7%E4%BD%93%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E5%BC%8F%EF%BC%9A"><span class="nav-number">1.2.2.</span> <span class="nav-text">具体问题及解决方式：</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%89%E3%80%81%E5%8D%9A%E5%AE%A2%E5%9F%BA%E6%9C%AC%E5%8A%9F%E8%83%BD"><span class="nav-number">1.3.</span> <span class="nav-text">三、博客基本功能</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9B%9B%E3%80%81%E6%90%AD%E5%BB%BA%E6%84%9F%E5%8F%97"><span class="nav-number">1.4.</span> <span class="nav-text">四、搭建感受</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
